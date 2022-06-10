@@ -12,11 +12,10 @@ import re
 filename1 = input("Name of the text file to read: ")
 file2 = open("output.txt", "w")
 with open(filename1, "r") as file1:
-    while (line := file1.readline().rstrip()):
+    while (line := file1.readline()):
         print(line)
         patterneng = re.sub("\[EN\d+\]\s*",' "x "', line)
         haruka = re.sub("\[Haruka+\]\s",'h "', patterneng)
         sora = re.sub("\[Sora+\]+\s",'s "', haruka)
-
-file2.writelines(haruka)
-print(haruka)
+        file2.writelines(haruka)
+        print(haruka)
