@@ -15,7 +15,9 @@ with open(filename1, "r") as file1:
     while (line := file1.readline()):
         print(line)
         patterneng = re.sub("\[EN\d+\]\s*",' "x "', line)
-        haruka = re.sub("\[Haruka+\]\s",'h "', patterneng)
-        sora = re.sub("\[Sora+\]+\s",'s "', haruka)
-        file2.writelines(haruka)
-        print(haruka)
+        announcement = re.sub("\[Announcment+\]\s*", 'an "', patterneng)
+        haruka = re.sub("\[Haruka+\]\s*",'h "', announcement)
+        sora = re.sub("\[Sora+\]\s*",'s "', haruka)
+
+        file2.writelines(sora)
+        print(sora)
