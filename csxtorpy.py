@@ -8,16 +8,40 @@
 
 import re
 
-# reads data from txt
-filename1 = input("Name of the text file to read: ")
-file2 = open("output.txt", "w")
-with open(filename1, "r") as file1:
-    while (line := file1.readline()):
-        print(line)
-        patterneng = re.sub("\[EN\d+\]\s*",' "x "', line)
-        announcement = re.sub("\[Announcment+\]\s*", 'an "', patterneng)
-        haruka = re.sub("\[Haruka+\]\s*",'h "', announcement)
-        sora = re.sub("\[Sora+\]\s*",'s "', haruka)
+ascii_art = ("""
+    ******   ******** **     **   **            *******   *******  **    **
+  **////** **////// //**   **   /**           /**////** /**////**//**  ** 
+ **    // /**        //** **   ******  ****** /**   /** /**   /** //****  
+/**       /*********  //***   ///**/  **////**/*******  /*******   //**   
+/**       ////////**   **/**    /**  /**   /**/**///**  /**////     /**   
+//**    **       /**  ** //**   /**  /**   /**/**  //** /**         /**   
+ //******  ********  **   //**  //** //****** /**   //**/**         /**   
+  //////  ////////  //     //    //   //////  //     // //          //    
+ **                      **          **                       **     **   
+/**       **   **       /**         /**                      /**    //    
+/**      //** **        /**  ****** /**       ******   ******/**  ** **   
+/******   //***         /** **////**/******  **////** **//// /** ** /**   
+/**///**   /**          /**/**   /**/**///**/**   /**//***** /****  /**   
+/**  /**   **       **  /**/**   /**/**  /**/**   /** /////**/**/** /**   
+/******   **       //***** //****** /**  /**//******  ****** /**//**/**   
+/////    //         /////   //////  //   //  //////  //////  //  // //                                                                             
+""")                                                                                                                                                       
 
-        file2.writelines(sora)
-        print(sora)
+print(ascii_art)                                                                                                                                              
+# reads data from txt
+while True:
+    filename1 = input("Name of the text file to read: ")
+    if not re.match(".+\.txt", filename1):
+        print ("Error! Make sure you select a txt file.")
+    else:
+        file2 = open("output.txt", "w")
+        with open(filename1, "r") as file1:
+            while (line := file1.readline()):
+                print(line)
+                patterneng = re.sub("\[EN\d+\]\s*",' "x "', line)
+                announcement = re.sub("\[Announcment+\]\s*", 'an "', patterneng)
+                haruka = re.sub("\[Haruka+\]\s*",'h "', announcement)
+                sora = re.sub("\[Sora+\]\s*",'s "', haruka)
+                file2.writelines(sora)
+                print(sora)
+                break
