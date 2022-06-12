@@ -34,10 +34,10 @@ while True:
     if not re.match(".+\.txt", filename1):
         print ("Error! Make sure you select a txt file.")
     else:
-        file2 = open("output.txt", "w")
+        filename2 = input("Name of the output text file: ")
+        file2 = open(filename2, "w")
         with open(filename1, "r") as file1:
             while (line := file1.readline()):
-                print(line)
                 patterneng = re.sub("\[EN\d+\]\s*",' "x "', line)
                 announcement = re.sub("\[Announcment+\]\s*", 'an "', patterneng)
                 haruka = re.sub("\[Haruka+\]\s*",'h "', announcement)
