@@ -1,0 +1,75 @@
+ "x "How long has it been since you had to walk for such a long time?
+
+ "x "s "Sigh... Are we there yet?
+
+ "x "It's been over 40 minutes since we started walking from the station.
+
+ "x "s "... I'm tired.
+
+ "x "Which makes that the umpteenth time Sora has grumbled those words.
+
+ "x "h "I know its hard. It's been a long time since you've walked this far. Just hang in there. We're almost there.
+
+ "x "s "You said that already.
+
+ "x "Well, if you're only going to repeat yourself, I can only repeat myself back.
+
+ "x "h "We've walked further than before... So we really are closer.
+
+ "x "s "Uuuh... That doesn't answer my question.
+
+ "x "Judging from that weak voice barely leaking out of her, it's clear that she isn't acting.
+
+ "x "Although we rested every now and then, this was still probably very hard on her feet. She didn't have much stamina to begin with...
+
+ "x "h "At any rate, this is some nice weather we're having...
+ 
+ "x "It seems the more enthusiasm I put into my voice, the more it feels like the sky has grown further than when I was on the train. No matter where I look, I am surrounded by its piercing blue.
+
+ "x "At least the air was as clean as the sky was clear... This place feels refreshing ─ and it's not a humid heat. Thanks to that, we're walking without sweating much.
+
+ "x "If we were having the same muggy air we have in the city, we'd be sweating buckets by now. There's no doubt that even I'd be whining.
+
+ "x "h "Here, I'll push you from behind. Just hang in there.
+
+ "x "As I tried to reach for Sora's back, she quickly dodged.
+
+ "x "s "Stop that... It's embarrassing...
+
+ "x "h "It's not like anyone's looking... If you don't like it, then just walk and bear with it.
+
+ "x "Just as we tried to continue.
+
+ "x "s "Huh?! KYAH~!
+
+ "x "h "Huh? What's up?
+
+ "x "Gripping the sleeve of my shirt, Sora hid behind my back.
+
+ "x "s "Something just jumped out from the bushes over there!
+
+ "x "h "Eh?
+
+ "x "Just as she said that, a big, green insect hopped out.
+
+ "x "s "Wah~?!
+
+ "x "h "Ahahaha! It's just a grasshopper.
+
+ "x "Two or three more appeared ─ hopping along after the first.
+
+ "x "s "Uuu~... Get away!
+
+ "x "h "Ah. Hey, hey! Wait up!
+
+ "x "Sora tried to get away as fast as she could.
+
+ "x "h "Hahaha. Now that I think about it. Grasshoppers used to freak you out back then too didn't they?
+
+ "x "s "S-Shut up! Stop laughing!
+
+ "x "h "Sorry, sorry. Anyway, let's get out of here.
+
+ "x "Sora stepped up her pace as if being chased by the grasshoppers. Thanks to that we were able to arrive at our destination faster than I thought.
+
+ "x "Hooray for grasshoppers... I guess?
